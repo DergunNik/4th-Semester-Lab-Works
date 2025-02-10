@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab1.Page4"
+             Title="Lab4">
+    <ScrollView>
+        <VerticalStackLayout Margin="15" Spacing="10">
+            <DatePicker DateSelected="OnDateSelected"
+                        MinimumDate="1995-03-29"
+                        Format="d"
+                        HorizontalOptions="Start"
+                        VerticalOptions="Center"/>
+            <CollectionView x:Name="rates_view">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Border Margin="10">
+                            <Border.StrokeShape>
+                                <RoundRectangle CornerRadius="10"/>
+                            </Border.StrokeShape>
+                            <Grid Padding="20" ColumnDefinitions="*,*,Auto,*,*">
+                                <Label Text="{Binding Cur_Scale}" HorizontalOptions="Center"/>
+                                <Label Text="{Binding Cur_Abbreviation}" 
+                                       HorizontalOptions="Center"
+                                       Grid.Column="1"/>
+                                <BoxView Color="Black" 
+                                         WidthRequest="1" 
+                                         Grid.Column="2" 
+                                         HorizontalOptions="Center"/>
+                                <Label Text="{Binding Cur_OfficialRate}" 
+                                       HorizontalOptions="Center"
+                                       Grid.Column="3"/>
+                                <Label Text="BYN" HorizontalOptions="Center" Grid.Column="4"/>
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+            <Grid RowDefinitions="*,*"
+                  ColumnDefinitions="Auto,*">
+                <Picker x:Name="fst_cur_picker"
+                        ItemDisplayBinding="{Binding Cur_Abbreviation}"
+                        SelectedIndexChanged="OnPickerSelectedСurrencyChanged"
+                        WidthRequest="100"/>
+                <Entry x:Name="fst_cur_entry"
+                       Placeholder="1"
+                       Text="0" 
+                       Keyboard="Numeric" 
+                       TextChanged="OnTextChanged"
+                       Grid.Column="1"/>
+                <Picker x:Name="snd_cur_picker"
+                        ItemDisplayBinding="{Binding Cur_Abbreviation}"
+                        SelectedIndexChanged="OnPickerSelectedСurrencyChanged"
+                        WidthRequest="100"
+                        Grid.Row="1"/>
+                <Entry x:Name="snd_cur_entry"
+                       Placeholder="2"
+                       Text="0" 
+                       Keyboard="Numeric" 
+                       TextChanged="OnTextChanged"
+                       Grid.Column="1"
+                       Grid.Row="1"/>
+            </Grid>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

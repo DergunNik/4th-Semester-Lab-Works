@@ -1,0 +1,61 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+<Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Lab1"
+             x:Class="Lab1.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
+                <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <Color x:Key="Background">#f3f3f3</Color>
+            <Color x:Key="EvalBtnClr">#1d6978</Color>
+            <Color x:Key="BrightBtnClr">White</Color>
+            <Color x:Key="DimBtnClr">#f9f9f9</Color>
+            <Color x:Key="BorderClr">#eae3df</Color>
+            <Color x:Key="TextClr">Black</Color>
+            <Color x:Key="EvalTextClr">White</Color>
+            <Color x:Key="InactiveTextClr">#bfbfbf</Color>
+            <Style x:Key="BaseBtn" TargetType="Button">
+                <Setter Property="BorderColor" Value="{StaticResource BorderClr}"/>
+                <Setter Property="TextColor" Value="{StaticResource TextClr}"/>
+                <Setter Property="Margin" Value="1"/>
+                <Setter Property="FontSize" Value="18"/>
+                <Setter Property="IsEnabled" Value="True"/>
+                <Setter Property="VerticalOptions" Value="FillAndExpand"/>
+                <Setter Property="Padding" Value="0"/>
+            </Style>
+            <Style x:Key="BrightBtn" BasedOn="{StaticResource BaseBtn}" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource BrightBtnClr}"/>
+            </Style>
+            <Style ApplyToDerivedTypes="True" BasedOn="{StaticResource BaseBtn}" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource DimBtnClr}"/>
+            </Style>
+            <Style x:Key="EvalBtn" BasedOn="{StaticResource BaseBtn}" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="{StaticResource EvalBtnClr}"/>
+                <Setter Property="TextColor" Value="{StaticResource EvalTextClr}"/>
+                <Setter Property="FontSize" Value="24"/>
+            </Style>
+            <Style x:Key="MemBtn" TargetType="Button">
+                <Setter Property="BorderWidth" Value="0"/>
+                <Setter Property="BackgroundColor" Value="Transparent"/>
+                <Setter Property="FontSize" Value="18"/>
+                <Setter Property="IsEnabled" Value="True"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="Padding" Value="0"/>
+                <Setter Property="Margin" Value="0,0,0,-20"/>
+            </Style>
+            <Color x:Key="MainColor2">#512bd4</Color>
+            <Color x:Key="TextColor2">White</Color>
+            <Style x:Key="B2" TargetType="Button">
+                <Setter Property="HeightRequest" Value="30"/>
+                <Setter Property="WidthRequest" Value="90"/>
+                <Setter Property="TextColor" Value="{StaticResource TextColor2}"/>
+                <Setter Property="BackgroundColor"  Value="{StaticResource MainColor2}"/>
+                <Setter Property="VerticalOptions" Value="End"/>
+                <Setter Property="Margin" Value="15"/>
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab1.Page1"
+             Title="Lab1">
+
+    <Grid RowDefinitions="*,*,*,*,*,*,*,*,*">
+        
+        <Label x:Name="HistoryLabel"
+               Text=""
+               Margin="0,0,20,0"
+               FontSize="24"
+               MinimumHeightRequest="20"
+               TextColor="{StaticResource InactiveTextClr}"
+               HorizontalOptions="EndAndExpand"
+               VerticalOptions="EndAndExpand"/>     
+        
+        <Label x:Name="MainLabel"
+               Text="0"
+               Margin="0,0,20,-20"
+               FontSize="48"
+               MinimumHeightRequest="40"
+               HorizontalOptions="EndAndExpand"
+               VerticalOptions="EndAndExpand"
+               Grid.Row="1"/>
+
+        <Grid Grid.Row="2"
+              ColumnDefinitions="*,*,*,*,*,*">
+
+            <Button Text="MC"
+                    x:Name="MC"
+                    Grid.Column="0"
+                    Clicked="MemClearClickHandler"
+                    Style="{StaticResource MemBtn}"
+                    IsEnabled="False"
+                    TextColor="{StaticResource InactiveTextClr}"/>
+
+            <Button Text="MR"
+                    x:Name="MR"
+                    Grid.Column="1"
+                    Clicked="MemReloadClickHandler"
+                    Style="{StaticResource MemBtn}"
+                    IsEnabled="False"
+                    TextColor="{StaticResource InactiveTextClr}"/>
+
+            <Button Text="M+"
+                    Grid.Column="2"
+                    Clicked="MemPlusClickHandler"
+                    Style="{StaticResource MemBtn}"/>
+
+            <Button Text="M-"
+                    Grid.Column="3"
+                    Clicked="MemMinusClickHandler"
+                    Style="{StaticResource MemBtn}"/>
+
+            <Button Text="MS"
+                    Grid.Column="4"
+                    Clicked="MemSaveClickHandler"
+                    Style="{StaticResource MemBtn}"/>
+
+            <Button Text="MF"
+                    Grid.Column="5"
+                    Clicked="MyFunctionClickHandler"
+                    Style="{StaticResource MemBtn}"/>
+        </Grid>
+        
+        <Grid Grid.Row="3"
+              Grid.RowSpan="6"
+              RowDefinitions="*,*,*,*,*,*"
+              ColumnDefinitions="*,*,*,*"
+              VerticalOptions="Fill"
+              HorizontalOptions="Fill">
+
+
+            <Button Text="%"
+                    Clicked="PercentClickHandler"
+                    Grid.Row="0"    
+                    Grid.Column="0"/>
+
+            <Button Text="CE"
+                    Clicked="ClearEnterClickHandler"
+                    Grid.Row="0"
+                    Grid.Column="1"/>
+
+            <Button Text="C"
+                    Clicked="ClearClickHandler"
+                    Grid.Row="0"
+                    Grid.Column="2"/>
+
+            <Button Text=""
+                    ImageSource="backspace.png"
+                    Clicked="BackspaceClickHandler"
+                    Grid.Row="0"
+                    Grid.Column="3"/>
+
+
+            <Button Text="1/x"
+                    Clicked="UnaryOperationClickHandler"
+                    Grid.Row="1"    
+                    Grid.Column="0"/>
+
+            <Button Text="x^2"
+                    Clicked="UnaryOperationClickHandler"
+                    Grid.Row="1"
+                    Grid.Column="1"/>
+
+            <Button Text=""
+                    ImageSource="sqrt.png"
+                    Clicked="UnaryOperationClickHandler"
+                    Grid.Row="1"
+                    Grid.Column="2"/>
+
+            <Button Text="/"
+                    Clicked="BinaryOperationClickHandler"
+                    Grid.Row="1"
+                    Grid.Column="4"/>
+
+            
+            <Button Text="7"
+                    Clicked="NumberClickHandler"
+                    Grid.Row="2"    
+                    Grid.Column="0"
+                    Style="{StaticResource BrightBtn}"/>
+
+            <Button Text="8"
+                    Clicked="NumberClickHandler"
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    Style="{StaticResource BrightBtn}"/>
+
+            <Button Text="9"
+                    Clicked="NumberClickHandler"
+                    Grid.Row="2"
+                    Grid.Column="2"
+
+                    Style="{StaticResource BrightBtn}"/>
+
+            <Button Text="x"
+                    Clicked="BinaryOperationClickHandler"
+                    Grid.Row="2"
+                    Grid.Column="4"/>
+
+
+            <Button Text="4"
+                    Clicked="NumberClickHandler"
+                    Grid.Row="3"    
+                    Grid.Column="0"
+                    Style="{StaticResource BrightBtn}"/>
+
+            <Button Text="5"
+                    Clicked="NumberClickHandler"
+                    Grid.Row="3"
+                    Grid.Column="1"
+                    Style="{StaticResource BrightBtn}"/>
+
+            <Button Text="6"
+                    Clicked="NumberClickHandler"
+                    Grid.Row="3"
+                    Grid.Column="2"
+                    Style="{StaticResource BrightBtn}"/>
+
+            <Button Text="-"
+                    Clicked="BinaryOperationClickHandler"
+                    Grid.Row="3"
+                    Grid.Column="4"/>
+
+            
+            <Button Text="1"
+                    Clicked="NumberClickHandler"
+                    Grid.Row="4"    
+                    Grid.Column="0"
+                    Style="{StaticResource BrightBtn}"/>
+
+            <Button Text="2"
+                    Clicked="NumberClickHandler"
+                    Grid.Row="4"
+                    Grid.Column="1"
+                    Style="{StaticResource BrightBtn}"/>
+
+            <Button Text="3"
+                    Clicked="NumberClickHandler"
+                    Grid.Row="4"
+                    Grid.Column="2"
+                    Style="{StaticResource BrightBtn}"/>
+
+            <Button Text="+"
+                    Clicked="BinaryOperationClickHandler"
+                    Grid.Row="4"
+                    Grid.Column="4"/>
+
+            
+            <Button Text="+/-"
+                    Clicked="UnaryOperationClickHandler"
+                    Grid.Row="5"    
+                    Grid.Column="0"
+                    Style="{StaticResource BrightBtn}"/>
+
+            <Button Text="0"
+                    Clicked="NumberClickHandler"
+                    Grid.Row="5"
+                    Grid.Column="1"
+                    Style="{StaticResource BrightBtn}"/>
+
+            <Button Text=","
+                    Clicked="DotClickHandler"
+                    Grid.Row="5"
+                    Grid.Column="2"
+                    Style="{StaticResource BrightBtn}"/>
+
+            <Button Text="="
+                    Clicked="EvaluateClickHandler"
+                    Grid.Row="5"
+                    Grid.Column="4"
+                    Style="{StaticResource EvalBtn}"/>
+
+        </Grid>
+    </Grid>
+    
+</ContentPage>

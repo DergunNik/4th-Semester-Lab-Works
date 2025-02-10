@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Lab1.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:lab1="clr-namespace:Lab1"
+    Shell.FlyoutBehavior="Flyout"
+    Title="Dziarhun_Labs">
+
+    <FlyoutItem Title="Page1">
+        <ShellContent
+            ContentTemplate="{DataTemplate lab1:Page1}"
+            Route="page1"/>
+    </FlyoutItem>
+    <FlyoutItem Title="Page2">
+        <ShellContent
+            ContentTemplate="{DataTemplate lab1:Page2}"
+            Route="page2"/>
+    </FlyoutItem>
+    <FlyoutItem Title="Page3">
+        <ShellContent
+            ContentTemplate="{DataTemplate lab1:Page3}"
+            Route="page3"/>
+    </FlyoutItem>
+    <FlyoutItem Title="Page4">
+        <ShellContent
+        ContentTemplate="{DataTemplate lab1:Page4}"
+        Route="page4"/>
+    </FlyoutItem>
+
+</Shell>
