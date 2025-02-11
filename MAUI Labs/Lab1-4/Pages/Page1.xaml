@@ -87,8 +87,10 @@
                     Grid.Row="0"
                     Grid.Column="2"/>
 
+            <!-- Ему будет плохо при горизонтальной ориентации (телефона), но на вертикальной смотрится адекватно -->
             <Button Text=""
                     ImageSource="backspace.png"
+                    Padding="30"
                     Clicked="BackspaceClickHandler"
                     Grid.Row="0"
                     Grid.Column="3"/>
@@ -104,8 +106,7 @@
                     Grid.Row="1"
                     Grid.Column="1"/>
 
-            <Button Text=""
-                    ImageSource="sqrt.png"
+            <Button Text="√x"
                     Clicked="UnaryOperationClickHandler"
                     Grid.Row="1"
                     Grid.Column="2"/>

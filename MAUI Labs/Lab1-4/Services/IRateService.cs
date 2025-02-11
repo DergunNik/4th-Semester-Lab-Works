@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Lab1.Model;
+using Lab1.Entities;
 
 namespace Lab1.Services
 {

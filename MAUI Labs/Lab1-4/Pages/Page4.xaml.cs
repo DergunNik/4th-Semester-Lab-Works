@@ -1,5 +1,5 @@
 using CommunityToolkit.Mvvm.ComponentModel;
-using Lab1.Model;
+using Lab1.Entities;
 using Lab1.Services;
 using Microsoft.Extensions.Primitives;
 using System.Collections.ObjectModel;

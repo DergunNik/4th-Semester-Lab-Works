@@ -23,7 +23,7 @@
                 <Setter Property="Margin" Value="1"/>
                 <Setter Property="FontSize" Value="18"/>
                 <Setter Property="IsEnabled" Value="True"/>
-                <Setter Property="VerticalOptions" Value="FillAndExpand"/>
+                <Setter Property="VerticalOptions" Value="Fill"/>
                 <Setter Property="Padding" Value="0"/>
             </Style>
             <Style x:Key="BrightBtn" BasedOn="{StaticResource BaseBtn}" TargetType="Button">

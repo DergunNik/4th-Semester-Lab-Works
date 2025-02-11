@@ -6,7 +6,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace Lab1.Model
+namespace Lab1.Entities
 {
     public class Rate
     {
@@ -23,13 +23,5 @@ namespace Lab1.Model
     internal sealed partial class RateContext : JsonSerializerContext
     {
 
-    }
-
-    public class RateShort
-    {
-        public int Cur_ID { get; set; }
-        [Key]
-        public System.DateTime Date { get; set; }
-        public decimal? Cur_OfficialRate { get; set; }
     }
 }
