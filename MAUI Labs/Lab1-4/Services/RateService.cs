@@ -13,9 +13,9 @@ namespace Lab1.Services
     {
         private readonly HttpClient httpClient;
 
-        public RateService()
+        public RateService(IHttpClientFactory httpClientFactory)
         {
-            this.httpClient = new HttpClient();
+            httpClient = httpClientFactory.CreateClient();
         }
 
         public async Task<IEnumerable<Rate>> GetRatesAsync(DateTime date)

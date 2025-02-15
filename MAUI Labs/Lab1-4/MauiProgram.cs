@@ -28,6 +28,7 @@ namespace Lab1
                 service.Init();
                 return service;
             });
+            builder.Services.AddHttpClient();
             builder.Services.AddSingleton<IRateService, RateService>();
 #if DEBUG
             builder.Logging.AddDebug();

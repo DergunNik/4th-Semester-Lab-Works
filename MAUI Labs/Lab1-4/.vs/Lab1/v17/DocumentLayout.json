@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\pages\\page3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:pages\\page3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\pages\\page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:pages\\page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\pages\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:pages\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\model\\progressindicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:model\\progressindicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\pages\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:pages\\page1.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
@@ -11,28 +31,36 @@
       "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:pages\\page1.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\entities\\rate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:entities\\rate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\pages\\page4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:pages\\page4.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\pages\\page4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:pages\\page4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\services\\rateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:services\\rateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\services\\irateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:services\\irateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\services\\idbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:services\\idbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\services\\sqliteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:services\\sqliteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\entities\\rate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:entities\\rate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\services\\irateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:services\\irateservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,32 +71,12 @@
       "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:model\\equation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\model\\progressindicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:model\\progressindicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\fluentui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:fluentui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\pages\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:pages\\page2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\pages\\page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:pages\\page2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\services\\sqliteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:services\\sqliteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.39\\tools\\Xamarin.Android.Aapt2.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -76,14 +84,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\resources\\fonts\\fluentui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:resources\\fonts\\fluentui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\pages\\page4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:pages\\page4.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\pages\\page3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|solutionrelative:pages\\page3.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF371FDB-3B5E-45CB-8ED6-AA7D06185485}|Labs.csproj|c:\\projects\\4th-semester-lab-works\\maui labs\\lab1-4\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -113,72 +113,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 21,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 7,
               "Title": "MauiProgram.cs",
               "DocumentMoniker": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\MauiProgram.cs",
               "RelativeDocumentMoniker": "MauiProgram.cs",
               "ToolTip": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\MauiProgram.cs",
               "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAgwB4AAABDAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwB4AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-02T15:30:42.953Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Page1.xaml.cs",
               "DocumentMoniker": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\Pages\\Page1.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\Page1.xaml.cs",
               "ToolTip": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\Pages\\Page1.xaml.cs",
               "RelativeToolTip": "Pages\\Page1.xaml.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAuwNoAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAM4AAAAAAAAAAAAQwNoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-29T19:26:09.406Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-29T19:26:09.406Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "RateService.cs",
               "DocumentMoniker": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\Services\\RateService.cs",
               "RelativeDocumentMoniker": "Services\\RateService.cs",
               "ToolTip": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\Services\\RateService.cs",
               "RelativeToolTip": "Services\\RateService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-04T14:32:28.845Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Page4.xaml.cs",
               "DocumentMoniker": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\Pages\\Page4.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\Page4.xaml.cs",
               "ToolTip": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\Pages\\Page4.xaml.cs",
               "RelativeToolTip": "Pages\\Page4.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAowJMAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-04T16:06:24.333Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Xamarin.Android.Aapt2.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.39\\tools\\Xamarin.Android.Aapt2.targets",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.39\\tools\\Xamarin.Android.Aapt2.targets",
               "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.39\\tools\\Xamarin.Android.Aapt2.targets",
               "RelativeToolTip": "..\\..\\..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\35.0.39\\tools\\Xamarin.Android.Aapt2.targets",
-              "ViewState": "AgIAANAAAAAAAAAAAAAAANcAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAM4AAAAAAAAAAABBwNcAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
               "WhenOpened": "2025-02-04T20:59:17.059Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "IDbService.cs",
               "DocumentMoniker": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\Services\\IDbService.cs",
               "RelativeDocumentMoniker": "Services\\IDbService.cs",
@@ -190,7 +189,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "FluentUI.cs",
               "DocumentMoniker": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\Resources\\Fonts\\FluentUI.cs",
               "RelativeDocumentMoniker": "Resources\\Fonts\\FluentUI.cs",
@@ -202,7 +201,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "FluentUI.cs",
               "DocumentMoniker": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\FluentUI.cs",
               "RelativeDocumentMoniker": "FluentUI.cs",
@@ -220,10 +219,9 @@
               "RelativeDocumentMoniker": "App.xaml",
               "ToolTip": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\App.xaml",
               "RelativeToolTip": "App.xaml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAABgAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-04T20:33:12.749Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T20:33:12.749Z"
             },
             {
               "$type": "Document",
@@ -233,25 +231,26 @@
               "RelativeDocumentMoniker": "Pages\\Page3.xaml.cs",
               "ToolTip": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\Pages\\Page3.xaml.cs",
               "RelativeToolTip": "Pages\\Page3.xaml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T15:41:36.255Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 0,
               "Title": "Page3.xaml",
               "DocumentMoniker": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\Pages\\Page3.xaml",
               "RelativeDocumentMoniker": "Pages\\Page3.xaml",
               "ToolTip": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\Pages\\Page3.xaml",
               "RelativeToolTip": "Pages\\Page3.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-03T15:41:33.613Z"
+              "WhenOpened": "2025-02-03T15:41:33.613Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "Rate.cs",
               "DocumentMoniker": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\Entities\\Rate.cs",
               "RelativeDocumentMoniker": "Entities\\Rate.cs",
@@ -263,7 +262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "Book.cs",
               "DocumentMoniker": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\Entities\\Book.cs",
               "RelativeDocumentMoniker": "Entities\\Book.cs",
@@ -275,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 14,
               "Title": "IRateService.cs",
               "DocumentMoniker": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\Services\\IRateService.cs",
               "RelativeDocumentMoniker": "Services\\IRateService.cs",
@@ -287,7 +286,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 12,
               "Title": "SQLiteService.cs",
               "DocumentMoniker": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\Services\\SQLiteService.cs",
               "RelativeDocumentMoniker": "Services\\SQLiteService.cs",
@@ -305,19 +304,19 @@
               "RelativeDocumentMoniker": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
               "ToolTip": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
               "RelativeToolTip": "obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\Platforms\\Windows\\App.g.i.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAAEQAAABEAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAIBJwEQAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-04T16:44:12.435Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 4,
               "Title": "ProgressIndicator.cs",
               "DocumentMoniker": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\Model\\ProgressIndicator.cs",
               "RelativeDocumentMoniker": "Model\\ProgressIndicator.cs",
               "ToolTip": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\Model\\ProgressIndicator.cs",
               "RelativeToolTip": "Model\\ProgressIndicator.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwB8AAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-02T14:59:54.634Z"
             },
@@ -335,19 +334,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 9,
               "Title": "Page4.xaml",
               "DocumentMoniker": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\Pages\\Page4.xaml",
               "RelativeDocumentMoniker": "Pages\\Page4.xaml",
               "ToolTip": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\Pages\\Page4.xaml",
               "RelativeToolTip": "Pages\\Page4.xaml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAADQAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADIAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-02-04T16:06:20.245Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 17,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\AppShell.xaml",
               "RelativeDocumentMoniker": "AppShell.xaml",
@@ -371,28 +370,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Page1.xaml",
               "DocumentMoniker": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\Pages\\Page1.xaml",
               "RelativeDocumentMoniker": "Pages\\Page1.xaml",
               "ToolTip": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\Pages\\Page1.xaml",
               "RelativeToolTip": "Pages\\Page1.xaml",
-              "ViewState": "AgIAAIEAAAAAAAAAAAAAAFoAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAAAFoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-01-29T11:37:09.421Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-29T11:37:09.421Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 1,
               "Title": "Page2.xaml.cs",
               "DocumentMoniker": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\Pages\\Page2.xaml.cs",
               "RelativeDocumentMoniker": "Pages\\Page2.xaml.cs",
               "ToolTip": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\Pages\\Page2.xaml.cs",
               "RelativeToolTip": "Pages\\Page2.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwDQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T14:56:48.409Z"
+              "WhenOpened": "2025-02-02T14:56:48.409Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -408,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 3,
               "Title": "Page2.xaml",
               "DocumentMoniker": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\Pages\\Page2.xaml",
               "RelativeDocumentMoniker": "Pages\\Page2.xaml",
@@ -420,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "Equation.cs",
               "DocumentMoniker": "C:\\Projects\\4th-Semester-Lab-Works\\MAUI Labs\\Lab1-4\\Model\\Equation.cs",
               "RelativeDocumentMoniker": "Model\\Equation.cs",

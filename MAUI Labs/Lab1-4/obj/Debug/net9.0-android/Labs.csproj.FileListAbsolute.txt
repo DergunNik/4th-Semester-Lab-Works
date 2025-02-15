@@ -3783,3 +3783,8 @@ C:\Projects\4th-Semester-Lab-Works\MAUI Labs\Lab1-4\obj\Debug\net9.0-android\sta
 C:\Projects\4th-Semester-Lab-Works\MAUI Labs\Lab1-4\obj\Debug\net9.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Projects\4th-Semester-Lab-Works\MAUI Labs\Lab1-4\obj\Debug\net9.0-android\stamp\_ResolveLibraryProjectImports.stamp
 C:\Projects\4th-Semester-Lab-Works\MAUI Labs\Lab1-4\obj\Debug\net9.0-android\Labs.sourcelink.json
+C:\Projects\4th-Semester-Lab-Works\MAUI Labs\Lab1-4\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Extensions.Configuration.Binder.dll
+C:\Projects\4th-Semester-Lab-Works\MAUI Labs\Lab1-4\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Projects\4th-Semester-Lab-Works\MAUI Labs\Lab1-4\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Extensions.Diagnostics.dll
+C:\Projects\4th-Semester-Lab-Works\MAUI Labs\Lab1-4\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Extensions.Http.dll
+C:\Projects\4th-Semester-Lab-Works\MAUI Labs\Lab1-4\obj\Debug\net9.0-android\android\assets\x86_64\Microsoft.Extensions.Options.ConfigurationExtensions.dll

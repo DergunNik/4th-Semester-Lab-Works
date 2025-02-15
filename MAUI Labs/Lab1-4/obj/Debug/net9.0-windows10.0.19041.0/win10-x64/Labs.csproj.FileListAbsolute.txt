@@ -1934,3 +1934,8 @@ C:\Projects\4th-Semester-Lab-Works\MAUI Labs\Lab1-4\obj\Debug\net9.0-windows10.0
 C:\Projects\4th-Semester-Lab-Works\MAUI Labs\Lab1-4\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\FluentUI.cs
 C:\Projects\4th-Semester-Lab-Works\MAUI Labs\Lab1-4\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf
 C:\Projects\4th-Semester-Lab-Works\MAUI Labs\Lab1-4\obj\Debug\net9.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf
+C:\Projects\4th-Semester-Lab-Works\MAUI Labs\Lab1-4\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Configuration.Binder.dll
+C:\Projects\4th-Semester-Lab-Works\MAUI Labs\Lab1-4\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Diagnostics.dll
+C:\Projects\4th-Semester-Lab-Works\MAUI Labs\Lab1-4\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Projects\4th-Semester-Lab-Works\MAUI Labs\Lab1-4\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Http.dll
+C:\Projects\4th-Semester-Lab-Works\MAUI Labs\Lab1-4\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Microsoft.Extensions.Options.ConfigurationExtensions.dll
