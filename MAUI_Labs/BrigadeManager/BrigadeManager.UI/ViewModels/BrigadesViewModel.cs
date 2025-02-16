@@ -33,7 +33,11 @@ namespace BrigadeManager.UI.ViewModels
         public async Task UpdateMembersList() => await GetWorks();
 
         [RelayCommand]
-        public async Task ShowDetails(Work work) => await GotoDetailsPage(work);
+        public async Task ShowDetails(Work work)
+        {
+            await GotoDetailsPage(work);
+            await GetWorks();
+        }
 
         [RelayCommand]
         public async Task AddBrigade()
@@ -45,10 +49,10 @@ namespace BrigadeManager.UI.ViewModels
         [RelayCommand]
         public async Task AddWork()
         {
-            if (selectedBrigade is null)
+            if (SelectedBrigade is null)
                 return;
             await GoToAddOrEditPage(nameof(AddOrEditWork),
-                   new AddWorkRequest() { Work = new Work() { BrigadeId = selectedBrigade.Id } });
+                   new AddWorkRequest() { Work = new Work() { BrigadeId = SelectedBrigade.Id } });
             await GetWorks();
         }
 

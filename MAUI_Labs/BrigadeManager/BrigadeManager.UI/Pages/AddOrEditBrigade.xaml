@@ -4,7 +4,7 @@
              xmlns:models="clr-namespace:BrigadeManager.UI.ViewModels"
              x:Class="BrigadeManager.UI.Pages.AddOrEditBrigade"
              x:DataType="models:AddOrEditBrigadeViewModel"
-             Title="AddOrEditBrigade">
+             Title="Edit Brigade">
     
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Save" Command="{Binding AddOrEditBrigadeCommand}" />

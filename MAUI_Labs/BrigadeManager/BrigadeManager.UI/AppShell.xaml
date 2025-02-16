@@ -9,10 +9,12 @@
 
     <ShellContent
         Title="Home"
+        Icon="home.png"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
     <ShellContent 
         Title="Brigades list" 
+        Icon="apps.png"
         ContentTemplate="{DataTemplate pages:Brigades}" 
         Route="Cources" />
 

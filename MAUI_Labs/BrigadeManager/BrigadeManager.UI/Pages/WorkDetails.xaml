@@ -7,7 +7,7 @@
              xmlns:models="clr-namespace:BrigadeManager.UI.ViewModels"
              x:Name="WorkDetailsPage"
              x:DataType="models:WorkDetailsViewModel"
-             Title="WorkDetails">
+             Title="Work details">
 
     <ContentPage.Behaviors>
         <toolkit:EventToCommandBehavior 
