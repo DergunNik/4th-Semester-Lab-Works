@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:BrigadeManager.UI.ViewModels"
+             x:Class="BrigadeManager.UI.Pages.AddOrEditBrigade"
+             x:DataType="models:AddOrEditBrigadeViewModel"
+             Title="AddOrEditBrigade">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save" Command="{Binding AddOrEditBrigadeCommand}" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <VerticalStackLayout>
+            <Border Margin="10" 
+                    Padding="5">
+                <VerticalStackLayout>
+                    <Label Text="Name" />
+                    <Entry Placeholder="Name" Text="{Binding Name}" />
+                    <Label Text="Leader" />
+                    <Entry Placeholder="Leader" Text="{Binding Leader}" />
+                    <Label Text="Workers Number" />
+                    <Entry Placeholder="Worker Number" Text="{Binding WorkersNumber}" />
+                </VerticalStackLayout>
+            </Border>
+        </VerticalStackLayout>
+    </ContentPage.Content>
+</ContentPage>

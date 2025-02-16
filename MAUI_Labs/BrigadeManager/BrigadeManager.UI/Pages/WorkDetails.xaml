@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BrigadeManager.UI.Pages.WorkDetails"
+             xmlns:convertors="clr-namespace:BrigadeManager.UI.ValueConvertors"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:models="clr-namespace:BrigadeManager.UI.ViewModels"
+             x:Name="WorkDetailsPage"
+             x:DataType="models:WorkDetailsViewModel"
+             Title="WorkDetails">
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior 
+            EventName="Appearing"
+            BindingContext="{Binding Source={x:Reference WorkDetailsPage}, Path=BindingContext}"
+            Command="{Binding Path=GetWorkByIdCommand}"/>
+    </ContentPage.Behaviors>
+
+    <ContentPage.Resources>
+        <convertors:DateToStringConvertor x:Key="DateToStringConverter" />
+        <Style TargetType="Label">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Padding" Value="15"/>
+            <Setter Property="TextColor" Value="Black"/>
+        </Style>
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Edit Work" Command="{Binding EditWorkCommand}" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <Grid Margin="10"
+              RowDefinitions="*,*">
+            <Border>
+                <Image Source="{Binding ImageSrc}"/>
+            </Border>
+            <Grid Grid.Row="1"
+                  RowDefinitions="*,*,*,*">
+                <Label Text="{Binding Name, StringFormat='Name: {0}'}"/>
+                <Label Grid.Row="1"
+                       Text="{Binding Rating, StringFormat='Rating: {0}'}"/>
+                <Label Grid.Row="2"
+                       Text="{Binding StartDate, Converter={StaticResource DateToStringConverter}, 
+                    StringFormat='Start date: {0}'}"/>
+                <Label Grid.Row="3"
+                       Text="{Binding EndDate, Converter={StaticResource DateToStringConverter},
+                    StringFormat='End date: {0}'}"/>
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

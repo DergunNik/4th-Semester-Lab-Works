@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BrigadeManager.UI.Pages.Brigades"
+             xmlns:models="clr-namespace:BrigadeManager.UI.ViewModels"
+             x:DataType="models:BrigadesViewModel"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:convertors="clr-namespace:BrigadeManager.UI.ValueConvertors"
+             xmlns:entities="clr-namespace:BrigadeManager.Domain.Entities;assembly=BrigadeManager.Domain"
+             x:Name="BrigadesPage"
+             Title="Brigades">
+
+    <ContentPage.Behaviors>
+        <toolkit:EventToCommandBehavior 
+            EventName="Appearing"
+            BindingContext="{Binding Source={x:Reference BrigadesPage}, Path=BindingContext}"
+            Command="{Binding Path=UpdateGroupListCommand}"/>
+    </ContentPage.Behaviors>
+
+    <ContentPage.Resources>
+        <convertors:IsNotNullConvertor x:Key="IsNotNullConverter"/>
+        <convertors:RatingToColorConvertor x:Key="RatingToColorConvertor"/> 
+    </ContentPage.Resources>
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Add Brigade" Command="{Binding AddBrigadeCommand}" />
+        <ToolbarItem Text="Add Work" Command="{Binding AddWorkCommand}" />
+    </ContentPage.ToolbarItems>
+
+
+    <ContentPage.Content>
+        <Grid RowDefinitions="Auto,Auto,*"
+              Margin="5">
+            <Picker 
+                Title="Select brigade"
+                ItemsSource="{Binding Brigades}"
+                SelectedItem="{Binding SelectedBrigade}"
+                ItemDisplayBinding="{Binding Name}">
+                <Picker.Behaviors>
+                    <toolkit:EventToCommandBehavior 
+                        EventName="SelectedIndexChanged"
+                        BindingContext="{Binding Source={x:Reference BrigadesPage}, Path=BindingContext}"
+                        Command="{Binding Path=UpdateMembersListCommand}"/> 
+                </Picker.Behaviors>
+            </Picker>
+
+            <Border Margin="0, 20, 0, 20"
+                    Grid.Row="1"
+                    IsVisible="{Binding SelectedBrigade, Converter={StaticResource IsNotNullConverter}}">
+                <VerticalStackLayout Padding="5"
+                                     Spacing="10">
+                    <Label Text="{Binding Path=SelectedBrigade.Name, StringFormat='Brigade Name: {0}'}"/>
+                    <Label Text="{Binding Path=SelectedBrigade.Leader, StringFormat='Leader: {0}'}"/>
+                    <Label Text="{Binding Path=SelectedBrigade.WorkersNumber, StringFormat='Workers Number: {0}'}"/>
+                </VerticalStackLayout>
+            </Border>
+
+            <ScrollView Grid.Row="2"
+                        IsVisible="{Binding SelectedBrigade, Converter={StaticResource IsNotNullConverter}}">
+                <CollectionView ItemsSource="{Binding Works}">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate x:DataType="entities:Work">
+                            <VerticalStackLayout>
+                                <Border Padding="20"
+                                    Margin="0,5,0,5"
+                                    BackgroundColor="{Binding Rating, 
+                                        Converter={StaticResource RatingToColorConvertor}}">
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="7"/>
+                                    </Border.StrokeShape>
+                                    <Border.GestureRecognizers>
+                                        <TapGestureRecognizer
+                                            Command="{Binding Source={RelativeSource 
+                                                AncestorType={x:Type models:BrigadesViewModel}},
+                                                Path=ShowDetailsCommand}"
+                                            CommandParameter="{Binding .}"/>
+                                    </Border.GestureRecognizers>
+                                    
+                                    <Border.Content>
+                                        <HorizontalStackLayout>
+                                            <Image Source="{Binding ImageSrc}"
+                                                   HeightRequest="50"
+                                                   Margin="0, 0, 20, 0"/>
+                                            <VerticalStackLayout>
+                                                <Label Text="{Binding Name}" />
+                                                <Label Text="{Binding Rating, StringFormat='Rating: {0}'}"/>
+                                            </VerticalStackLayout>
+                                        </HorizontalStackLayout>
+                                    </Border.Content>
+                                </Border>
+                            </VerticalStackLayout>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </ScrollView>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

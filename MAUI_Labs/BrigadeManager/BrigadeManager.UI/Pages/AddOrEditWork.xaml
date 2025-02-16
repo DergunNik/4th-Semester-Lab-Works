@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:models="clr-namespace:BrigadeManager.UI.ViewModels"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:convertors="clr-namespace:BrigadeManager.UI.ValueConvertors"
+             x:Class="BrigadeManager.UI.Pages.AddOrEditWork"
+             x:DataType="models:AddOrEditWorkViewModel"
+             Title="AddOrEditWorkPage">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Save" Command="{Binding AddOrEditWorkCommand}" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <VerticalStackLayout>
+            <Border Margin="10" 
+                    Padding="5">
+                <VerticalStackLayout>
+                    <Image Source="{Binding ImageSrc}"
+                           HeightRequest="100"/>
+                    <Button Margin="0, 20, 0, 20"
+                            Text="Select Image"
+                            Command="{Binding SelectImageCommand}" />
+                    <Label Text="Name" />
+                    <Entry Placeholder="Name" Text="{Binding Name}" />
+                    <Label Text="Start date" />
+                    <DatePicker Date="{Binding StartDate}" />
+                    <Label Text="End date" />
+                    <DatePicker Date="{Binding EndDate}" />
+                    <Label Text="{Binding Rating, StringFormat='Rating: {0}'}" />
+                    <Stepper
+                        Minimum="1"
+                        Maximum="10"
+                        Value="{Binding Rating}">
+                    </Stepper>
+                    <Picker 
+                        Title="{Binding PickerTitle}"
+                        IsEnabled="{Binding IsBrigadeIdChangeable}"
+                        ItemsSource="{Binding Brigades}"
+                        SelectedItem="{Binding SelectedBrigade}"
+                        ItemDisplayBinding="{Binding Name}">
+                    </Picker>
+                </VerticalStackLayout>
+            </Border>
+        </VerticalStackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab1.Page3"
+             Title="Lab3"
+             Loaded="PageLoaded">
+    <StackLayout>
+        <Picker x:Name="picker"
+                Title="Select author"
+                ItemsSource="{Binding authors_names}"
+                ItemDisplayBinding="{Binding Name}"
+                SelectedIndexChanged="SelectedAuthorChanged"
+                Margin="10"/>
+        <CollectionView x:Name="collection_view" VerticalOptions="FillAndExpand">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Border Margin="10">
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="10"/>
+                        </Border.StrokeShape>
+                        <Grid Padding="20" RowDefinitions="*,*">
+                            <Label Text="{Binding Title, StringFormat='Title: {0}'}"
+                                   Grid.Row="0"/>
+                            <Label Text="{Binding PublicationYear, StringFormat='Publication Year: {0}'}"
+                                   Grid.Row="1"/>
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+</ContentPage>
